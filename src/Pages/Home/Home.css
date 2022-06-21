@@ -1,0 +1,16 @@
+
+.marginforside{
+    margin-left: 240px;
+}
+.home{
+    background-color: black;
+    min-height: 100vh;
+}
+@media (max-width:600px){
+    .marginforside{
+        margin-left: 0;
+    }
+    .disable{
+        display: none;
+    }
+}
